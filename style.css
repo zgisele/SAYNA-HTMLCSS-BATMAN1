@@ -1,0 +1,224 @@
+/* body{
+    background-color: #000000;
+   
+} */
+/* .trait-alignement{
+    border: 2px solid  rgba(10,100,0,0.1) ;
+
+} */
+header{
+        height:130vh;
+        width: 100%;
+        background-image: url("Illustrations/Bathome1.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 20px;
+        
+       
+}
+nav{
+   
+   border: 2px solid  rgba(255,255,255,0.1) ;
+   border-top: 0px;
+    /* border: 1px solid #c4c4c4; */
+    display: flex;
+    flex-direction: row;
+    /* opacity: 0.3; */
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    
+    
+   
+    
+}
+nav a {
+    color: white;
+}
+.apresnav{
+    border: 2px solid  rgba(255,255,255,0.1) ;
+    /* border-bottom: none; */
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding-top: 210px;
+    padding-bottom: 210px;
+   
+
+}
+.apresnav p{
+    color: white;
+    /* text-align: justify; */
+    text-justify: center;
+    font-size: 18px;
+
+}
+.apresnav h1{
+    font-family:'rajdhani';
+    color: white;
+    /* font-size: 36px; */
+    /* font-style: medium; */
+}
+.Boutton{
+    /* display: flex; */
+    /* justify-content: 3px; */
+    padding-bottom: 100px;
+       
+}
+.Boutton button
+{
+    color: white;
+    border: none;
+    height: 45px;
+    width: 200px;
+    background-color: rgba(255,255,255,0.3);
+    margin-left: 15px;
+    margin-right: 15px;
+    /* font-size: 20px; */
+    /* box-shadow:inset 0px 10px 4px 0px rgba(255, 0, 0, 0.3); */
+    color: 40% #EDDEBF;
+}
+main{
+    background-color:#000000;
+    border: 4px solid yellow; 
+}
+.sect1{
+    
+    border: 2px solid  rgba(255,255,255,0.1) ;
+    border-top: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+
+}
+.sect1 .logo1{
+    margin-left: 500px;
+}
+.sect1 h1{
+    color: white;
+}
+.sect1 p{
+    color: white;
+    text-align:left;
+}
+.cinema{
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid green;
+}
+.cine{
+    border: 3px solid red;
+}
+
+/* .ciné img{
+
+
+} */
+.cine h2{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.trait-sect2{
+    border: 2px solid  rgba(255,255,255,0.1) ;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+
+}
+.trait-sect2 h1{
+    
+    color: white;
+}
+.trait-sect2 p{
+    
+    color: white;
+}
+.image-sect2{
+        background-image: url("Illustrations/Bathome11.png");
+        height:100vh;
+        width: 100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* padding-top: 20px; */
+}
+
+
+.sect3{
+    border: 2px solid  rgba(255,255,255,0.1) ;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+
+}
+.sect3 h1,.sect3 p{
+    
+    color: white;
+}
+.bloc1{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid mediumspringgreen;
+    
+}
+.bloc2{
+    display: flex;
+    border: 3px solid pink;
+    /* height:40vh;
+    width: 40%; */
+    
+}
+.bloc2 p{
+    background-color: #19587D;
+    width: 40%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ligne:hover{
+    border: none;
+    border-left:2px solid #c4c4c4;
+    border-right:2px solid #c4c4c4;
+    margin: 30px 30px;
+
+}
+.ligne:active{
+    border: none;
+    border-left:2px solid #c4c4c4;
+    border-right:2px solid #c4c4c4;
+    margin: 30px 30px;
+}
