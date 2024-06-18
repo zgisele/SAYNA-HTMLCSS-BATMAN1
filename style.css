@@ -77,11 +77,12 @@ nav a {
     height: 45px;
     width: 200px;
     background-color: rgba(255,255,255,0.3);
+    background:linear-gradient(to right,rgba(255,255,255,0.3) 40%, rgba(255,0,0,0.3) 60%) ;
     margin-left: 15px;
     margin-right: 15px;
     /* font-size: 20px; */
     /* box-shadow:inset 0px 10px 4px 0px rgba(255, 0, 0, 0.3); */
-    color: 40% #EDDEBF;
+    /* color: 40% #EDDEBF; */
 }
 main{
     background-color:#000000;
@@ -94,17 +95,22 @@ main{
     margin-left: 100px;
     margin-right: 100px;
     padding-left: 50px;
+    padding-right: 50px;
 
 }
 .sect1 .logo1{
-    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 500px; */
 }
 .sect1 h1{
     color: white;
 }
 .sect1 p{
     color: white;
-    text-align:left;
+    text-align:justify;
+    width: 800px;
 }
 .cinema{
     display: flex;
@@ -114,12 +120,39 @@ main{
 }
 .cine{
     border: 3px solid red;
+    width: 304px;
+    /* text-align: justify; */
 }
+/* .cine h2{
+    width:140px;
+} */
+/* .cine img{
+    width:152 px;
+    height: 229px;
+} */
 
 /* .ciné img{
 
 
 } */
+.logo2{
+   display: flex;
+}
+.logo2 H1{
+   margin-left: -250px;
+   margin-top: 160px;
+   
+   
+}
+
+.logo3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.logo3 img{
+    margin-right: -150px;
+}
 .cine h2{
     color:white;
     font-size: 20px;
@@ -142,6 +175,8 @@ main{
 .trait-sect2 p{
     
     color: white;
+    text-align:justify;
+    width: 800px;
 }
 .image-sect2{
         background-image: url("Illustrations/Bathome11.png");
@@ -181,7 +216,8 @@ main{
     
 }
 .bloc2 p{
-    background-color: #19587D;
+    background:linear-gradient(to right,#EDDEBF, #19587d 40%);
+    /* background-color: #19587D; */
     width: 40%;
     
 }
