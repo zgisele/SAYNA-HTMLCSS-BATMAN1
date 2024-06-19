@@ -2,10 +2,12 @@
     background-color: #000000;
    
 } */
-/* .trait-alignement{
-    border: 2px solid  rgba(10,100,0,0.1) ;
+.trait-alignement{
+    /* border: 2px solid  rgba(10,100,0,0.1) ; */
+    background-color: #000000;
 
-} */
+}
+/* entête */
 header{
         height:130vh;
         width: 100%;
@@ -31,28 +33,34 @@ nav{
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    justify-content: space-between;
-    
-    
-   
-    
+    justify-content: space-between;  
 }
 nav a {
-    color: white;
+    color: #ffffff;
 }
 .apresnav{
+    display: flex;
     border: 2px solid  rgba(255,255,255,0.1) ;
-    /* border-bottom: none; */
+    border-bottom: none;
     margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
+    margin-right: 100px; 
     padding-top: 210px;
     padding-bottom: 210px;
+    padding-left: 100px;
+    /* gap: 250px; */
+}
+.Accueil{
+    border: 1px solid yellow;
+    text-align: center;
+    /* justify-content: center; */
+    /* display: block; */
+    margin: auto;
+    
    
 
 }
 .apresnav p{
-    color: white;
+    color: #ffffff;
     /* text-align: justify; */
     text-justify: center;
     font-size: 18px;
@@ -60,33 +68,50 @@ nav a {
 }
 .apresnav h1{
     font-family:'rajdhani';
-    color: white;
+    color: #ffffff;
     /* font-size: 36px; */
     /* font-style: medium; */
 }
 .Boutton{
-    /* display: flex; */
-    /* justify-content: 3px; */
+   
     padding-bottom: 100px;
        
 }
 .Boutton button
 {
-    color: white;
+    color: #ffffff;
     border: none;
     height: 45px;
     width: 200px;
-    background-color: rgba(255,255,255,0.3);
+    /* background-color: rgba(255,255,255,0.3); */
     background:linear-gradient(to right,rgba(255,255,255,0.3) 40%, rgba(255,0,0,0.3) 60%) ;
     margin-left: 15px;
     margin-right: 15px;
-    /* font-size: 20px; */
-    /* box-shadow:inset 0px 10px 4px 0px rgba(255, 0, 0, 0.3); */
-    /* color: 40% #EDDEBF; */
+    border: 1px solid yellow;
+   
+    
 }
+.reseaux{
+    display: flex; 
+    flex-direction: column;
+    /* margin-right: -420px;   */
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: -55px;
+}
+.reseaux img{
+    
+    /* margin-bottom: 20px; */
+    margin: auto;
+      
+}
+
+
+/* partie main du projet */
+
 main{
     background-color:#000000;
-    border: 4px solid yellow; 
+    /* border: 4px solid yellow;  */
 }
 .sect1{
     
@@ -102,34 +127,41 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border:6px solid green;
+    margin-bottom: 100px;
     /* margin-left: 500px; */
 }
 .sect1 h1{
-    color: white;
+    color: #ffffff;
 }
 .sect1 p{
-    color: white;
+    color: #ffffff;
     text-align:justify;
-    width: 800px;
+    /* width: 800px; */
+    width: 100%;
+    border: 2px solid green;
 }
 .cinema{
     display: flex;
     justify-content: space-between;
-
-    border: 2px solid green;
+    border: 6px solid green;
+    margin:50px 0px;
 }
 .cine{
-    border: 3px solid red;
-    width: 304px;
+    border: 6px solid red;
+    /* width: 304px; */
+    width: 100%;
     /* text-align: justify; */
 }
 /* .cine h2{
     width:140px;
 } */
-/* .cine img{
-    width:152 px;
-    height: 229px;
-} */
+.cine img{
+
+    width: 100%;
+    /* width:152 px;
+    height: 229px; */
+}
 
 /* .ciné img{
 
@@ -139,8 +171,10 @@ main{
    display: flex;
 }
 .logo2 H1{
-   margin-left: -250px;
-   margin-top: 160px;
+   /* margin-left: -250px;
+   margin-top: 160px; */
+   margin-left: -250px ;
+   margin-top: auto;
    
    
 }
@@ -166,17 +200,21 @@ main{
     margin-left: 100px;
     margin-right: 100px;
     padding-left: 50px;
+    padding-right: 50px;
 
 }
 .trait-sect2 h1{
     
-    color: white;
+    color: #ffffff;
 }
 .trait-sect2 p{
-    
-    color: white;
+    border: 6px solid red;
+    color: #ffffff;
     text-align:justify;
-    width: 800px;
+    /* width: 800px; */
+    width: 100%;
+    /* margin-right: -200px; */
+
 }
 .image-sect2{
         background-image: url("Illustrations/Bathome11.png");
@@ -188,7 +226,6 @@ main{
         /* padding-top: 20px; */
 }
 
-
 .sect3{
     border: 2px solid  rgba(255,255,255,0.1) ;
     border-top: none;
@@ -196,30 +233,219 @@ main{
     margin-left: 100px;
     margin-right: 100px;
     padding-left: 50px;
+    padding-right: 50px;
+    border: 20px solid yellow;
 
 }
 .sect3 h1,.sect3 p{
     
-    color: white;
+    color: #ffffff;
 }
 .bloc1{
     display: flex;
-    justify-content: space-between;
-    border: 3px solid mediumspringgreen;
-    
+    border: 10px solid mediumspringgreen; 
+    /* justify-content: space-between;  */
+    width: 100%;  
+}
+.bloc1 .media_logo1,.bloc1 .media_logo2{
+    margin: auto ;
+
 }
 .bloc2{
-    display: flex;
-    border: 3px solid pink;
-    /* height:40vh;
-    width: 40%; */
+    background:linear-gradient(to right,#EDDEBF, #19587D 40%);
+    display:flex;
+    border: 6px solid pink;
+    border-radius: 5px;
+    width: 100%;  
+    margin:0px 100px;
+   
+}
+/* .bloc2-image{
+   
+   
+} */
+.bloc2 img{
+
+    border: 6px solid red;
+   
+   
     
+}
+.image-sect3{
+    border: 20px solid mediumspringgreen; 
+    margin: 100px 0px;
+    
+
+}
+.image-sect3 img{
+    width: 100%;
+    
+
 }
 .bloc2 p{
-    background:linear-gradient(to right,#EDDEBF, #19587d 40%);
-    /* background-color: #19587D; */
-    width: 40%;
+   
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 20px solid yellow;
+    text-align:justify; 
     
+}
+/* section contacte */
+.sect4{
+    background:linear-gradient(to right,#EDDEBF, #19587D 40%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.contact{
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.contact h1{
+    text-align: center;
+    color: #ffffff;
+
+}
+form{
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-top: 100px;
+   /* border: 1px solid yellow; */
+
+}
+form p ,form label{
+    color: #ffffff;
+   
+}
+form .entre,form select{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #c4c4c4;
+    width: 100%;
+    /* margin-bottom: 40px; */
+    color: #ffffff;
+
+}
+form .entre,form select:active{
+    border: none;
+    border-bottom: 2px solid #c4c4c4;
+   
+
+}
+.valeur{
+    
+    background-color:#19587D ;
+    border-bottom: 5px solid #c4c4c4;
+    color: #ffffff;
+    
+   
+}
+#email{
+    margin-bottom: 50px;
+    margin-top: 20px; 
+    font-weight: 500;
+}
+select{
+    margin-bottom: 50px; 
+}
+
+#info_plus{
+    margin-bottom: 50px;
+    text-align: center; 
+}
+#info_plus input{
+    background: transparent;
+    margin-top: 20px;
+    height: 40px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+#message{
+    margin-top: 20px; 
+}
+.confirmation{
+    
+    color: #ffffff;
+    border: none;
+    height: 45px;
+    width: 200px;
+    background:linear-gradient(to right,rgba(255,255,255,0.3) 40%, rgba(255,0,0,0.3) 60%);
+    margin-top: 20px;
+    /* margin-bottom: 40px; */
+    justify-content: center;
+    display: block;
+    margin:40px auto;
+    text-align: center;
+    
+    
+}
+
+
+/* pied de page */
+/* footer{
+    
+    
+} */
+
+.sect5{
+    border: 2px solid  rgba(255,255,255,0.1) ;
+    border-top: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 200px;
+}
+.mot_fin{
+    /* border: 1px solid red; */
+    margin-bottom:100px ;
+    
+}
+.mot_fin p{
+   color: #ffffff;
+   text-align: center;
+    
+}
+.mot_fin .guillemet2{
+   display: flex;
+   flex-direction: column;
+   margin-left:auto;
+    
+}
+.mot_fin2{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom:100px ;
+    
+}
+.univers_cine {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+     
+}
+.univers_cine img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    /* margin-left: 150px; */
+    
+}
+.univers_cine p{
+    color: #ffffff;
+    margin-left: 10px; 
+      
+}
+.logo_fin{
+    display: flex;
+    justify-content: center;
+}
+.logo_fin img{
+    /* margin-right: 10px; */
+    margin:auto 10px;
 }
 
 
@@ -245,7 +471,7 @@ main{
 
 
 
-.ligne:hover{
+/* .ligne:hover{
     border: none;
     border-left:2px solid #c4c4c4;
     border-right:2px solid #c4c4c4;
@@ -257,4 +483,4 @@ main{
     border-left:2px solid #c4c4c4;
     border-right:2px solid #c4c4c4;
     margin: 30px 30px;
-}
+} */

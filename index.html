@@ -13,14 +13,23 @@
                 <img src="Logos/logohome.png" alt="">
                 <a href="#">Home</a>
             </nav>
-            <div class="apresnav">
+            <div class="apresnav" >
+            <div class="Accueil">
                 <p>Au nom de ses parents assassinés, Bruce Wayne mène <br>une guerre éternelle contre les criminels de Gotham City. <br> Il est vengeur. Il est la nuit.</p>
                 <h1>Il est Batman.</h1>
                 <div class="Boutton">
                     <button>VOIR LE HÈROS</button>
                     <button>LES ADVERSAIRES</button>
-                </div>     
-            </div>    
+                </div>    
+            </div>  
+            <div class="reseaux">
+                <img src="Logos/logo_bat_flèche.png" alt=""> 
+                <img src="Logos/icon_facebook.png" alt="">
+                <img src="Logos/icon_ig.png" alt="">
+                <img src="Logos/icon_tw.png" alt="">
+                <img src="Logos/logo_bat_flèche_2.png" alt="">
+            </div>
+            </div>
         </header>
         <main>
             <section class="sect1">
@@ -127,48 +136,96 @@
                
                     <h1>MULTIMÉDIA</h1>
                     <div class="bloc1">
-                        <img src="Logos/icon_flèche_1.png" alt="">
+                        <img src="Logos/icon_flèche_1.png" alt="" class="media_logo1">
                         <div class="bloc2">
-                            <img src="Illustrations/Bathome_ba1.png" alt="">
-                            <div>
-                                <p>
-                                    ACTION, Adventure <br>
-                                    Batman Begins <br>
-                                    IMDB : 8.2 <br>
-                                    Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément 
-                                    traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de 
-                                    guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De retour chez lui à 
-                                    Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans 
-                                    la lutte contre le crime sous le nom de Batman.
-                                </p>
+                                <!-- <div class="bloc2-image"> -->
+                                    <img src="Illustrations/Bathome_ba1.png" alt="Batman" title="homme chauve-souris">
+                                <!-- </div> -->
+                           
+                                <!-- <div class="bloc2-p"> -->
+                                    <p>
+                                        ACTION, Adventure <br>
+                                        Batman Begins <br>
+                                        IMDB : 8.2 <br>
+                                        Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément 
+                                        traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de 
+                                        guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De retour chez lui à 
+                                        Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans 
+                                        la lutte contre le crime sous le nom de Batman.
+                                    </p>   
 
-                            </div>
-                            
-                            
+                                <!-- </div> -->
+                               
                         </div>
-                        <img src="Logos/icon_flèche_2.png" alt="">
+                        <img src="Logos/icon_flèche_2.png" alt="" class="media_logo2">
                     </div>
                     <div class="image-sect3">
                         <img src="Illustrations/Bathome_ba2.png" alt="">
-                    </div>  
+                    </div>     
+            </section>
+            <section class="sect4">
+                <div class="contact">
+                    <h1>PRENONS CONTACT</h1> 
+                    <form action="">
+                        <label for="">ADRESSE EMAIL</label> <br>
+                        <input type="text" name="email" placeholder="Adresse email" class="entre" id="email"><br>
+                        <label for="">NEWSLETTER</label>
+                        <p id="news">En cochant cette case vous acceptez de recevoir l’actualité concernant les <br>aventures de 
+                            Batman :<input type="checkbox" name="annonce" id="">
+                        </p>
+                        <select name="frequence" id="" >
+                            <option value="v1" class="valeur"> Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter </option>
+                            <option value="v2" class="valeur">Une fois par semaine</option>
+                            <option value="v3" class="valeur">Une fois toutes les deux semaines(2 fois par mois)</option>
+                            <option value="v5" class="valeur">Une fois par mois</option>
+                            <option value="v6" class="valeur">Une fois toutes les trois mois</option>
+                            <option value="v7" class="valeur">Une fois toutes les dix mois</option>
+                        </select>
+
+                        <input type="text" placeholder="Souhaitez-vous recevoir des news" class="entre">
+                        <div id="info_plus">
+                            <input type="button" name="option1" value="Des Films">
+                            <input type="button" name="option2" value="Des Comics">
+                            <input type="button" name="option3" value="De tout">
+                        </div>
+                        <label for=""> MESSAGE</label><br>
+                        <input type="textarea" name="message" id="message" placeholder="Laissez un commentaire pour la communauté" class="entre"><br>
+                        <button type="submit" class="confirmation">CONFIRMER</button>
+
+                    </form>
+                </div>  
+            </section> 
+           
+            
+        </main> 
+        <footer>
+            <section class="sect5">
+                <div class="mot_fin">
+                    <img src="Logos/icon_guillemets_1.png" alt="" class="guillemet1">
+                    <p class="premier_phrase">La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles. </p>
+                     <p class="deuxieme_phrase">The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)</p>  
+                    <img src="Logos/icon_guillemets_2.png" alt="" class="guillemet2">
+                    
+                </div>
+                <div class="mot_fin2">
+                    <div class="univers_cine">
+                        <img src="Logos/icon_WB.png" alt="">
+                        <p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeve</p>
+                    </div>
+                    <div class="logo_fin">
+                        <img src="Logos/logo_sayna_white.png" alt="">
+                        <img src="Logos/icon_x.png" alt="">
+                        <img src="Logos/icon_DC.png" alt="">
+                        <img src="Logos/icon_facebook.png" alt="">
+                        <img src="Logos/icon_ig.png" alt="">
+                        <img src="Logos/icon_tw.png" alt="">
+                        
+                    </div>
+                </div>
                 
-               
             </section>
             
-        </main>
-        
+        </footer>   
     </div>
-
-    <footer>
-        <div class="ligne">
-            <p>bonjour</p>
-            <p>bonjour</p>
-            <p>bonjour</p>
-            <p>bonjour</p>
-            <p>bonjour</p>
-            <p>bonjour</p>
-
-        </div>
-    </footer> 
 </body>
 </html>
