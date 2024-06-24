@@ -262,6 +262,10 @@ main{
     justify-content: space-between;
    
 }
+.bloc2 p{
+    margin-right: 10px;
+}
+
 /* .bloc2-image{
    
    
@@ -478,9 +482,14 @@ select{
         /* border: 1px solid green; */
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: none;
+        /* margin-bottom: none; */
+
         
     }
+    /* .Accueil{
+       
+        margin-bottom: 200px;
+    } */
     /* .apresnav p{
         text-align: center;
     } */
@@ -497,18 +506,18 @@ select{
    
     .reseaux{
         margin-left: auto;
-        margin-right: -26px;
+        margin-right: -26px; 
+        height: 330px;    
     }
     .reseaux .img1,.reseaux .img5{
         width: 54px;
         height: 50px;
         
     }
-    .reseaux img{
+    /* .reseaux img{ */
         /* display: inline-block;  */
-        margin-top:-2px;
-       
-    }
+       /* margin-top:-40px;   */
+    /* } */
     main{
         /* background-color: #000000; */
         /* background-color: white; */
@@ -525,7 +534,7 @@ select{
     }
     .logo2 H1{
         /* border: 5px solid red; */
-        margin-left: -150px ;
+        margin-left: -140px ;
         margin-bottom: -5px;
      }
     .logo2 img{
@@ -563,7 +572,7 @@ select{
         background-size:98vw 50vh;
         /* margin: auto; */
         width:100%;
-        height: 500px;
+        /* height: 500px; */
         /* border: 7px solid yellow; */ 
     }
     .sect3{
@@ -574,27 +583,17 @@ select{
     }
     .bloc2{
         display: block;
-       height: 60vh;
-       width: 50vh;
-       margin: auto 5px;
-       justify-content:0px;
-       
+       margin: auto 5px;  
 
     }
     .bloc2 img{
-        height: 10vh;
-        width: 44vw;
-        /* width:78px ;
-        height:115px ; */ 
+        width: 100%;
         margin: auto;
 
     }
     .bloc2 p{
-        /* margin: auto; */
-        height: 44vh;
-        width: 35vw;
-        margin: none;
-        margin-top: 0px;
+        box-sizing: border-box;
+        margin-right: 10px;
 
     }
     /* .sect4{
@@ -627,11 +626,34 @@ select{
 
 
 
-@media only screen and (max-width: 481px) and (max-width: 768px){
+@media only screen and (max-width: 500px) and (max-width: 900px){
+    /* (max-width: 768px) */
+    header{
+        background-size:100vw 100vh;
+       /* height: 90vh; */
+       /* width: 90%; */
+       /* border: 6px solid blue; */
+       
+    }
+    .image-sect2{
+        background-size:100vw 100vh;
+        /* background-size:98vw 50vh; */
+       
+        width:100%;
+        
+    }
     
 }
 
-@media only screen and (max-width: 769px) and (max-width: 1024px){
+@media only screen and (max-width: 901px) and (max-width: 1024px){
+    /* (max-width: 769px) */
+    header{
+        background-size:100vw 100vh;
+       /* height: 90vh; */
+       /* width: 90%; */
+       /* border: 6px solid blue; */
+       
+    }
     
 }
 
