@@ -73,7 +73,7 @@ nav ul a:hover{
     color: var(--yellow-color);
 }
 #hero{
-    background-image: url("/Illustrations/Bathome1.png");
+    background-image: url("Illustrations/Bathome1.png");
     height: 800px; 
    background-repeat: no-repeat;
    background-position: top center;
