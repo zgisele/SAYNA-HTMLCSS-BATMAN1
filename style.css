@@ -120,6 +120,11 @@ nav ul a:hover{
     background:linear-gradient(to right,rgba(255,255,255,0.4) 40%, rgba(255,0,0,0.4) 60%) ; 
     height: 44px;      
 }
+ .btn:hover, input[type='submit']:hover{
+    padding: 10px 20px;
+    background-color:rgba(255,255,255,0.4);  
+    height: 44px;   
+}
  .btn a{
     text-decoration: none;
     color: var(--white-color);
@@ -434,7 +439,7 @@ footer .social-footer{
     border-left: 1px solid #eddebf1f; ;
     border-right: 1px solid #eddebf1f; 
 } */
-div{
+.container{
     -webkit-animation: fadeInRight 1500ms ease-in-out;
             animation:  fadeInRight 1500ms ease-in-out;
     
